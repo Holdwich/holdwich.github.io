@@ -1,0 +1,43 @@
+/* Reset some default styles for the header and navigation */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.sticky-header {
+    background-color: #333; /* Background color for the header */
+    color: #fff; /* Text color for the header links */
+    position: sticky;
+    top: 0;
+    z-index: 100; /* Ensure the header appears above other content */
+}
+
+.sticky-header nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.sticky-header nav ul {
+    list-style: none;
+}
+
+.sticky-header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.sticky-header nav ul li:last-child {
+    margin-right: 0;
+}
+
+.sticky-header nav ul li a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
+
+/* Add some styles for when users hover over the links */
+.sticky-header nav ul li a:hover {
+    color: #ff9900; /* Change the color on hover */
+}
