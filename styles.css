@@ -24,7 +24,7 @@ body {
 
 .sticky-header nav ul li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 60px;
 }
 
 .sticky-header nav ul li:last-child {
@@ -42,6 +42,20 @@ body {
     color: #ff9900; /* Change the color on hover */
 }
 
+.Home {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    min-height: 100vh; /* Ensure the section takes up at least the full viewport height */
+}
+
+/* Additional styles for the divSection elements */
 .divSection {
-    align-content: center;
+    max-width: 400px; /* Set a maximum width for the divSection elements */
+    padding: 20px;
+}
+
+.divSection a {
+    margin-right: 10px; /* Adjust the margin to control the spacing */
+    display: inline-block; /* Ensure buttons are displayed as blocks to control margin */
 }
