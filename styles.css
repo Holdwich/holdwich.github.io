@@ -41,3 +41,7 @@ body {
 .sticky-header nav ul li a:hover {
     color: #ff9900; /* Change the color on hover */
 }
+
+div {
+    align-content: center;
+}
