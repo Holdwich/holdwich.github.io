@@ -42,6 +42,6 @@ body {
     color: #ff9900; /* Change the color on hover */
 }
 
-div {
+.divSection {
     align-content: center;
 }
